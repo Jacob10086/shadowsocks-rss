@@ -1,4 +1,4 @@
-# ShadowsocksR C# 版本4.7.0 #
+# ShadowsocksR C# 版本4.8.0 #
 
 BitTorrent Sync：BHS55LP54SO7A434QBB5Z2O6B7A45B2BX  
 主页：[https://breakwa11.github.io/](https://breakwa11.github.io/)  
@@ -9,7 +9,9 @@ Android APP: [SSR-android](https://github.com/shadowsocksr/shadowsocksr-android/
 iOS APP： [Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118), [Potatso2](https://download.potatso.com), [Cross](https://itunes.apple.com/cn/app/cross-shadowsocks-proxy-client/id1194595243)  
 MAC APP：[ShadowsocksX-NG](https://github.com/qinyuhang/ShadowsocksX-NG/releases), [ShadowsocksX-R](https://github.com/yichengchen/ShadowsocksX-R/releases)  
 其它跨平台分支：[avege](https://github.com/avege/avege), [electron-ssr](https://github.com/erguotou520/electron-ssr)  
-Docker: [https://hub.docker.com/r/breakwa11/shadowsocksr/](https://hub.docker.com/r/breakwa11/shadowsocksr/)
+Docker: [https://hub.docker.com/r/breakwa11/shadowsocksr/](https://hub.docker.com/r/breakwa11/shadowsocksr/)  
+panel: [ssrpanel](https://github.com/ssrpanel/ssrpanel)  
+
 
 推荐使用ZeroNet地址，或BitTorrent Sync免翻自动更新，最及时自动获取最新版本  
 注意发布压缩包内有一个以sig后缀的签名文件（如果没有签名文件，即文件已经被修改过），**您应该使用GPG进行校验**  
@@ -38,6 +40,9 @@ Google Group: [ShadowsocksR](https://groups.google.com/forum/#!forum/shadowsocks
 TOX: D211FF64C848E03161700E74714A2100D363757AED4982F35486CC0713577C2F356B7DD84CAB  
 
 ### 更新记录： ###
+版本4.8.0 *2017-08-08*  
+1.增加协议`auth_chain_c`、`auth_chain_d`，具体特性参见协议文档  
+
 版本4.7.0 *2017-07-27*  
 1.增加协议`auth_chain_b`，具体特性参见协议文档  
 2.修正部分内存泄露  
